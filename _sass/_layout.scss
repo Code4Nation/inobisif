@@ -59,6 +59,16 @@ body {
     article section {
       margin-top: $spacing-unit / 2;
     }
+
+    article section h2 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    article section h3 {
+      font-size: 18px;
+      font-weight: 600;
+    }
 }
 
 footer {
