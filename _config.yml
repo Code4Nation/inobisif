@@ -1,3 +1,5 @@
+include: [_pages]
+markdown: kramdown
+permalink: /:title/
 title: Inovasi Bisnis Inklusif
 url: "http://www.inobisif.id"
-markdown: kramdown
