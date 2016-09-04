@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Bergabung
-permalink: /id/bergabung/
 order: 3
+parent: index
+permalink: /id/bergabung/
+title: Bergabung
 ---
 
 - Nama:

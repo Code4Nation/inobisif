@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Konsep
-permalink: /id/konsep/
 order: 1
+parent: index
+permalink: /id/konsep/
+title: Konsep
 ---
 
 Tim Inovasi dan Bisnis Inklusif adalah sebuah inisiatif
@@ -37,6 +38,10 @@ dalam Rangka Konektivitas Ekonomi dari Desa, Kota, dan Pasar Global.
 
 Beberapa proyek percontohan yang sedang dilaksanakan tim
 untuk tahun 2016 adalah: bawang, ikan, kayu, dan produk UMKM.
+
+<div markdown="1">
+  {% include konsep-banner.md %}
+</div>
 
 ## Latar Belakang Tim
 
@@ -81,5 +86,3 @@ Albert Lucius
 Gusti Ngurah Anom
 
 Susunan kepengurusan yang lengkap dapat dilihat dalam Surat Keputusan.    -->
-
-[PELAJARI PRIORITAS](/id/prioritas)
