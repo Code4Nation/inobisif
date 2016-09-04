@@ -9,38 +9,15 @@ layout: default
   <p>Dapatkah teknologi informasi meningkatkan keterlibatan masyarakat perdesaan
     ke dalam ekonomi nasional?</p>
   <p><a href="/id/konsep">PELAJARI KONSEP</a></p>
-  <p><small><strong>Perkembangan terbaru:</strong> Highlight perkembangan-perkembangan terbaru. Launching program prioritas hutan, misalkan.</small></p>
 </blockquote>
+
+{% for post in site.posts limit:1 %}
+<h2>Perkembangan Terkini: {{ post.title }}</h2>
+<section>
+    {{ post.content }}
+</section>
+{% endfor %}
 
 <div markdown="1">
   {% include konsep-banner.md %}
 </div>
-
-<!-- <ul>
-  <h2>Perkembangan Terpenting</h2>
-  <li>A</li>
-  <li>B</li>
-  <li>C</li>
-</ul>
-
-<ul>
-  <h2>Saluran-Saluran Resmi</h2>
-  <li>Twitter</li>
-  <li>Facebook</li>
-  <li>Mailing List</li>
-</ul>
-
-<ul>
-  <h2>Acara Mendatang</h2>
-  <li>Kapan:</li>
-  <li>Dimana:</li>
-  <li><button>Daftar</button></li>
-</ul>
-
-<ul>
-  <h2>Partner-Partner</h2>
-  <li>Code4Nation</li>
-  <li>Telapak</li>
-  <li>Tokopedia</li>
-  <li>Kudo</li>
-</ul> -->
