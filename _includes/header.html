@@ -1,7 +1,5 @@
 <header>
-  <!-- <img/> -->
-  <h1><a href="/">{{ site.title }}</a></h1>
-  <!-- <aside/> -->
+  <a href="/"><img alt="{{ site.title }}" src="/assets/logo.png" /></a>
   <nav>
     <ul>{% assign pages = site.pages | sort:"order" %}{% for page in pages %}{% if page.parent == "index" %}
       <li><a href="{{ page.url }}">{{ page.title }}</a></li>{% endif %}{% endfor %}
