@@ -18,6 +18,4 @@ layout: default
 </section>
 {% endfor %}
 
-<div markdown="1">
-  {% include konsep-banner.md %}
-</div>
+{% include konsep-banner.html %}

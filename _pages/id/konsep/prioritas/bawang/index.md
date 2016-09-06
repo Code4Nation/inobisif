@@ -16,6 +16,4 @@ __Skema__: Limakilo.id bekerja sama dengan kudo.co.id untuk menghasilkan bawang 
 
 [Galeri Foto Lima Kilo](https://www.flickr.com/photos/82530551@N04/sets/72157667031434944/)
 
-<div markdown="1">
-  {% include konsep-banner.md %}
-</div>
+{% include konsep-banner.html %}

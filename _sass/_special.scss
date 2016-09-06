@@ -1,0 +1,49 @@
+.circle {
+    $circle-size: 150px;
+    background-color: $brand-color;
+    border-radius: 50%;
+    color: white;
+    font-size: 72px;
+    height: $circle-size;
+    line-height: $circle-size;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: $circle-size;
+}
+
+.circle-aside {
+    color: $brand-color;
+    display: inline-block;
+    font-size: $base-font-size * 2;
+    text-align: center;
+    width: 100%;
+}
+
+/* From
+http://www.digitalskydesign.com/how-to-make-an-entire-div-a-link-using-css/
+*/
+.link-container {
+    position: relative;
+    a {
+      background-color: #fff;
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      filter: alpha(opacity=1);
+      position: absolute;
+      text-decoration: none;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+}
+
+.split-3 {
+  float: left;
+  margin-bottom: 30px;
+  min-width: 200px;
+  width: 33.3%;
+}

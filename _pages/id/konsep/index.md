@@ -39,9 +39,7 @@ dalam Rangka Konektivitas Ekonomi dari Desa, Kota, dan Pasar Global.
 Beberapa proyek percontohan yang sedang dilaksanakan tim
 untuk tahun 2016 adalah: bawang, ikan, kayu, dan produk UMKM.
 
-<div markdown="1">
-  {% include konsep-banner.md %}
-</div>
+{% include konsep-banner.html %}
 
 ## Latar Belakang Tim
 
