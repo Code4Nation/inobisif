@@ -14,6 +14,4 @@ __Target__: Peningkatan 15% dari penjualan UMKM di masing-masing kota di Indones
 
 __Skema__: Tokopedia.com bekerja sama dengan pemerintah lokal kota-kota di Indonesia untuk menciptakan lebih banyak UMKM lokal dengan produk-produk khas kota tersebut.
 
-<div markdown="1">
-  {% include konsep-banner.md %}
-</div>
+{% include konsep-banner.html %}

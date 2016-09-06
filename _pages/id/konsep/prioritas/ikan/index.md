@@ -14,6 +14,4 @@ __Target__: Penjualan ikan yang lebih murah untuk konsumen hingga 25,000 ton/bul
 
 __Skema__: Pasarlaut.id bekerja sama dengan Perindo untuk menghasilkan ikan yang lebih murah untuk konsumen sekaligus lebih tinggi harganya untuk para nelayan.
 
-<div markdown="1">
-  {% include konsep-banner.md %}
-</div>
+{% include konsep-banner.html %}

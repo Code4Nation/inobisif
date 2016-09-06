@@ -14,6 +14,4 @@ __Target__: Lahan hutan yang dapat dilestarikan mencapai 80,000 hektar dalam sat
 
 __Skema__: Atria Kapital bekerja sama dengan Pohonku dan Telapak untuk menciptakan model pelestarian hutan untuk kayu berkelanjutan.
 
-<div markdown="1">
-  {% include konsep-banner.md %}
-</div>
+{% include konsep-banner.html %}
